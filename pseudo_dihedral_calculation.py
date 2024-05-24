@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 '''User input file name'''
-fileopen = open('semi-flipped.pdb', 'r')
+fileopen = open(input(), 'r')
 
 '''Formating file for the operation'''
 pdbfile = fileopen.readlines()
